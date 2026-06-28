@@ -61,6 +61,7 @@ public class AdminLoginpage extends AppCompatActivity {
         });
 
     }
+
     //    backpresd botom back button
 
     /** @noinspection deprecation*/
@@ -71,6 +72,7 @@ public class AdminLoginpage extends AppCompatActivity {
         super.onBackPressed();
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
+
         finish(); // Optional: Call finish() to close the current activity
 
     }
