@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="170dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Developer 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingBottom="16dp">
+
+                <!-- Developer Image -->
+                <ImageView
+                    android:id="@+id/developer_image_1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/nabeel"
+                    android:contentDescription="Developer 1 Image"/>
+
+                <!-- Vertical Line -->
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"/>
+
+                <!-- Developer Info -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <!-- Developer Name -->
+                    <TextView
+                        android:id="@+id/developer_name_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mohd Nabeel"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        android:textStyle="bold"/>
+
+                    <!-- Date Range -->
+                    <TextView
+                        android:id="@+id/date_range_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="IT 2021-2024"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:layout_marginTop="8dp"/>
+
+                    <!-- Horizontal Line -->
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:orientation="horizontal">
+
+                        <!-- Developer Logo -->
+                        <ImageView
+                            android:id="@+id/Nabeel_insta"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/insta"
+                            android:contentDescription="Developer 1 Logo"/>
+
+
+                        <!-- Developer Logo -->
+                        <ImageView
+                            android:id="@+id/Nabeel_linked"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="25dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/linked"
+                            android:contentDescription="Developer 2 Logo"/>
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Bottom Text -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:text="Leader"/>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="180dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:text="Developer"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+               >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Developer 1 -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="16dp">
+
+                        <!-- Developer Image -->
+                        <ImageView
+                            android:id="@+id/developer_image_2"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/raj"
+                            android:contentDescription="Developer 1 Image"/>
+
+                        <!-- Vertical Line -->
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/darker_gray"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="16dp"/>
+
+                        <!-- Developer Info -->
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <!-- Developer Name -->
+                            <TextView
+                                android:id="@+id/developer_name_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Raj Dahayat"
+                                android:textColor="@color/black"
+                                android:textSize="24sp"
+                                android:textStyle="bold"/>
+
+                            <!-- Date Range -->
+                            <TextView
+                                android:id="@+id/date_range_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="IT 2021_2024"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                android:layout_marginTop="8dp"/>
+
+                            <!-- Horizontal Line -->
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@android:color/darker_gray"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginBottom="8dp"/>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:orientation="horizontal">
+
+                                <!-- Developer Logo -->
+                                <ImageView
+                                    android:id="@+id/raj_insta"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:src="@drawable/insta"
+                                    android:contentDescription="Developer 1 Logo"/>
+
+
+                                <!-- Developer Logo -->
+                                <ImageView
+                                    android:id="@+id/raj_linked"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_width="25dp"
+                                    android:layout_height="20dp"
+                                    android:src="@drawable/linked"
+                                    android:contentDescription="Developer 2 Logo"/>
+
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <!-- Bottom Text -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textColor="@color/black"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17dp"
+                            android:text="Co-Leader"/>
+
+                        <TextView
+                            android:textColor="@color/black"
+                            android:layout_marginLeft="160dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17dp"
+                            android:text="Developer"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Developer 1 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="16dp">
+
+                    <!-- Developer Image -->
+                    <ImageView
+                        android:id="@+id/developer_image_3"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/brajesh"
+                        android:contentDescription="Developer 1 Image"/>
+
+                    <!-- Vertical Line -->
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"/>
+
+                    <!-- Developer Info -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <!-- Developer Name -->
+                        <TextView
+                            android:id="@+id/developer_name_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Brajesh Pathak"
+                            android:textColor="@color/black"
+                            android:textSize="24sp"
+                            android:textStyle="bold"/>
+
+                        <!-- Date Range -->
+                        <TextView
+                            android:id="@+id/date_range_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="IT 2021_2024"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:layout_marginTop="8dp"/>
+
+                        <!-- Horizontal Line -->
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@android:color/darker_gray"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <!-- Developer Logo -->
+                            <ImageView
+                                android:id="@+id/brajesh_insta"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:src="@drawable/insta"
+                                android:contentDescription="Developer 1 Logo"/>
+
+
+                            <!-- Developer Logo -->
+                            <ImageView
+                                android:id="@+id/brajesh_linked"
+                                android:layout_marginTop="5dp"
+                                android:layout_width="25dp"
+                                android:layout_height="20dp"
+                                android:src="@drawable/linked"
+                                android:contentDescription="Developer 2 Logo"/>
+
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- Bottom Text -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:text="Designer"/>
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="180dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:text="Developer"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="170dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Developer 1 -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="16dp">
+
+                        <!-- Developer Image -->
+                        <ImageView
+                            android:id="@+id/developer_image_4"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/rounak"
+                            android:contentDescription="Developer 1 Image"/>
+
+                        <!-- Vertical Line -->
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/darker_gray"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="16dp"/>
+
+                        <!-- Developer Info -->
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <!-- Developer Name -->
+                            <TextView
+                                android:id="@+id/developer_name_4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Rounak Jaiswal"
+                                android:textColor="@color/black"
+                                android:textSize="24sp"
+                                android:textStyle="bold"/>
+
+                            <!-- Date Range -->
+                            <TextView
+                                android:id="@+id/date_range_4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="IT 2021_2024"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                android:layout_marginTop="8dp"/>
+
+                            <!-- Horizontal Line -->
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@android:color/darker_gray"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginBottom="8dp"/>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:orientation="horizontal">
+
+                                <!-- Developer Logo -->
+                                <ImageView
+                                    android:id="@+id/developer_logo_7"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:src="@drawable/insta"
+                                    android:contentDescription="Developer 1 Logo"/>
+
+
+                                <!-- Developer Logo -->
+                                <ImageView
+                                    android:id="@+id/developer_logo_8"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_width="25dp"
+                                    android:layout_height="20dp"
+                                    android:src="@drawable/linked"
+                                    android:contentDescription="Developer 2 Logo"/>
+
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <!-- Bottom Text -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textColor="@color/black"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17dp"
+                            android:text="Designer"/>
+
+                        <TextView
+                            android:textColor="@color/black"
+                            android:layout_marginLeft="180dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17dp"
+                            android:text="Developer"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Disclaimer"
+                android:textColor="#E60808"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+
+
+
+

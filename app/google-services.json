@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "549788006690",
+    "firebase_url": "https://knpc-seva-default-rtdb.firebaseio.com",
+    "project_id": "knpc-seva",
+    "storage_bucket": "knpc-seva.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549788006690:android:df83e3d19ebeb7516f8d7b",
+        "android_client_info": {
+          "package_name": "com.example.seva_knpc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYZZgt6u4m_YV6eFrYe6OeUzXa5NNIqQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

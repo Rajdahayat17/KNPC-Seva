@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/bg_hader"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pinadmin">
+
+    <LinearLayout
+        android:id="@+id/linlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        >
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:src="@drawable/pin"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="10dp"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/purple_500"
+            android:drawablePadding="20dp"
+            app:boxStrokeColor="@color/purple_500"
+            app:hintTextColor="@color/black"
+            android:hint="Enter Key "
+            android:inputType="text"
+            android:padding="20dp"
+            android:textColor="@color/blue"
+            android:textColorHint="#0E0E0E" >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/textkey3"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPassword"
+                android:ems="15"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:backgroundTint="@color/purple_500"
+            android:id="@+id/verfybtn"
+            android:layout_below="@+id/key"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:text="Verify"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:layout_gravity="center"
+
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

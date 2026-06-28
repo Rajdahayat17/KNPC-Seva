@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home"
+    >
+
+
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.seva_knpc.ui.Notice.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.seva_knpc.ui.Faqs.FaqFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_faq" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.seva_knpc.ui.Aboutcollege.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_developer"
+        android:label="@string/menu_developer"
+        android:name="com.example.seva_knpc.ui.Developer.DeveloperFragment"
+        tools:layout="@layout/fragment_developer"/>
+
+
+</navigation>

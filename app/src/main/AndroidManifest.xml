@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.seva_knpc">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Seva_KNPC"
+        tools:targetApi="31">
+        <activity
+            android:name=".appUpdate.update"
+            android:exported="false" />
+        <activity
+            android:name=".Setting"
+            android:exported="false" />
+        <activity
+            android:name=".otherNotice.user_Other"
+            android:exported="false" />
+        <activity
+            android:name=".otherNotice.Admin_Other"
+            android:exported="false" />
+        <activity
+            android:name=".ExamNotice.user_Exam"
+            android:exported="false" />
+        <activity
+            android:name=".ExamNotice.Admin_Exam"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Faqs.Faq"
+            android:exported="false" />
+        <activity
+            android:name=".PdfViewerActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Seva_KNPC.NoActionBar" />
+        <activity
+            android:name=".Forms.user_forms"
+            android:exported="false" />
+        <activity
+            android:name=".Forms.Admin_Forms"
+            android:exported="false" />
+        <activity
+            android:name=".sports.user_sports"
+            android:exported="false" />
+        <activity
+            android:name=".sports.admin_sports"
+            android:exported="false" />
+        <activity
+            android:name=".scholarship.user_scholarship"
+            android:exported="false" />
+        <activity
+            android:name=".scholarship.Scholarship_admin"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Seva_KNPC.NoActionBar" />
+        <activity
+            android:name=".academic.admin_academic"
+            android:exported="false" />
+        <activity
+            android:name=".academic.user_academic"
+            android:exported="false" />
+        <activity
+            android:name=".adminpanel"
+            android:exported="false"
+            android:theme="@style/Theme.Seva_KNPC.NoActionBar" />
+        <activity
+            android:name=".AdminLoginpage"
+            android:exported="false"
+            android:theme="@style/Theme.Seva_KNPC.NoActionBar" />
+        <activity
+            android:name=".pinadmin"
+            android:exported="false" />
+        <activity
+            android:name=".splash_screen"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Seva_KNPC.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
