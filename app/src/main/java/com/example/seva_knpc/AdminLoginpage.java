@@ -65,6 +65,7 @@ public class AdminLoginpage extends AppCompatActivity {
 
     }
 
+
     //    backpresd botom back button
 
     /** @noinspection deprecation*/
@@ -73,7 +74,6 @@ public class AdminLoginpage extends AppCompatActivity {
     public void onBackPressed() {
         // Create an Intent to navigate back to MainActivity
         super.onBackPressed();
-
 
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
