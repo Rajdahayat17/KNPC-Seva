@@ -74,6 +74,7 @@ public class AdminLoginpage extends AppCompatActivity {
         // Create an Intent to navigate back to MainActivity
         super.onBackPressed();
 
+
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
 
