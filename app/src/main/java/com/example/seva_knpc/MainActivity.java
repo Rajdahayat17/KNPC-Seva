@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         //noinspection deprecation
         getWindow().setNavigationBarColor(getResources().getColor(R.color.white));
         //noinspection deprecation
