@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
         //noinspection deprecation
         getWindow().setStatusBarColor(getResources().getColor(R.color.purple_500));
 
-
         FirebaseMessaging.getInstance().subscribeToTopic("news");
 
 
