@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
         getWindow().setNavigationBarColor(getResources().getColor(R.color.white));
         //noinspection deprecation
         getWindow().setStatusBarColor(getResources().getColor(R.color.purple_500));
-
         FirebaseMessaging.getInstance().subscribeToTopic("news");
 
 
