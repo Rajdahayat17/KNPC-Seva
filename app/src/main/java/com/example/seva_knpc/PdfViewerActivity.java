@@ -22,6 +22,7 @@ public class PdfViewerActivity extends AppCompatActivity {
    private String url;
    private PDFView pdfView;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
